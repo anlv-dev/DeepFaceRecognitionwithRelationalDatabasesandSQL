@@ -10,7 +10,7 @@ facial_img_paths = []
 for root,directory, files in os.walk('dataset'):
     for file in files:
         if '.jpg' in file:
-            facial_img_path.append(root + '/' + file )
+            facial_img_paths.append(root + '/' + file )
 
 
 # proecess : detect and aling for each file
