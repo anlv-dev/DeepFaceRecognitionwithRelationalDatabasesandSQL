@@ -1,0 +1,6 @@
+Face recognition pipeline
+A modern face recognition pipeline consists of 4 common stages:
+- detect
+- align
+- represent
+- verify
